@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: bisque;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: lightskyblue;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
+}
